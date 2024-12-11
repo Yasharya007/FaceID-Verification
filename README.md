@@ -3,7 +3,7 @@
 
 ## Overview
 This project implements Siamese Neural Network (SNN) for face verification using the Labeled Faces in the Wild (LFW) dataset. The model learns a similarity metric to verify whether two face images belong to the same person.
-The model is implemented in Python kivi app for faceid verification.
+The model is implemented for faceID verification in python kivi app where by storing some images for reference model can predict whether the new input image match the reference or not.
 
 ---
 
@@ -41,7 +41,7 @@ FaceID-Verification/
 ├── app/                      # Python app for faceid verification
     ├── Application_Data/              # Application Data
         ├── Input_image                   # Store input image to verify
-        ├── Verification_Images           # Store refrence images
+        ├── Verification_Images           # Store reference images
     ├── faceid.py                      # faceid verification app
     ├── layers.py                      # Distance calculator
 ├── data/                      # Directory for LFW dataset
@@ -52,7 +52,7 @@ FaceID-Verification/
 ├── README.md                  # Project documentation
 ├── Application_data/          # Application data
     ├── Input_image                    # Store input image to verify
-    ├── Verification_Images            # Store refrence images
+    ├── Verification_Images            # Store reference images
 ```
 
 ---
@@ -80,7 +80,7 @@ FaceID-Verification/
 
 ### Faceid Verification app
 1. **Add Reference Image**
-   In /app/Application_data/Verification_Images add 20-30 sample images for reference to verify.
+   In "/app/Application_data/Verification_Images" add 20-30 sample images for reference to verify.
 2. **Import saved model**
    copy the saved model(.h5 file) in app directory.
 3. **Run App**
