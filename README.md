@@ -40,6 +40,8 @@ Below is the directory structure for the project:
 FaceID-Verification/
 ├── app/                      # Python app for faceid verification
     ├── Application_Data/              # Application Data
+        ├── Input_image                   # Store input image to verify
+        ├── Verification_Images           # Store refrence images
     ├── faceid.py                      # faceid verification app
     ├── layers.py                      # Distance calculator
 ├── data/                      # Directory for LFW dataset
@@ -49,6 +51,8 @@ FaceID-Verification/
 ├── Siamese Model Facial Verification Training.ipynb  #Jupyter notebook for model training
 ├── README.md                  # Project documentation
 ├── Application_data/          # Application data
+    ├── Input_image                    # Store input image to verify
+    ├── Verification_Images            # Store refrence images
 ```
 
 ---
